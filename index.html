@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Serpent - Snake Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="logo">
+            🐍 Cyber Serpent
+        </div>
+
+        <nav id="menu">
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#galeria">Galeria</a>
+            <a  href="game.html">Jogar</a>
+        </nav>
+
+        <button id="menuBtn">☰</button>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h1>O Clássico Snake Game em uma Nova Dimensão</h1>
+
+            <p>
+                Controle a serpente cyberpunk, acumule pontos,
+                desvie dos obstáculos e torne-se o mestre do ranking.
+            </p>
+
+            <a  href="game.html" class="btn">
+                Jogar Agora
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="img/hero.jpg" alt="Snake Game">
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section class="sobre" id="sobre">
+
+        <h2>Sobre o Jogo</h2>
+
+        <p>
+            Snake é um dos jogos mais famosos da história dos videogames.
+            Popularizado nos celulares Nokia durante os anos 90, seu objetivo
+            é controlar uma cobra que cresce conforme coleta itens pelo cenário.
+        </p>
+
+        <p>
+            O desafio aumenta progressivamente, exigindo reflexos rápidos
+            e estratégia para evitar colisões.
+        </p>
+
+    </section>
+
+    <!-- RECURSOS -->
+
+    <section class="recursos" id="recursos">
+
+        <h2>Recursos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🎮 Controle Simples</h3>
+                <p>Movimentação intuitiva e fácil de aprender.</p>
+            </div>
+
+            <div class="card">
+                <h3>🏆 Sistema de Pontuação</h3>
+                <p>Acumule pontos e desafie seus amigos.</p>
+            </div>
+
+            <div class="card">
+                <h3>⚡ Dificuldade Progressiva</h3>
+                <p>A velocidade aumenta conforme você evolui.</p>
+            </div>
+
+            <div class="card">
+                <h3>🕹 Estilo Retrô</h3>
+                <p>Inspirado nos clássicos arcades dos anos 80 e 90.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTADOR -->
+
+    <section class="score">
+
+        <h2>Pontuação Global</h2>
+
+        <div id="counter">0</div>
+
+    </section>
+
+    <!-- GALERIA -->
+
+    <section class="galeria" id="galeria">
+
+        <h2>Galeria</h2>
+
+        <div class="gallery">
+
+            <img src="img/gameplay.jpg" class="gallery-img" alt="Gameplay">
+
+            <img src="img/arcade.jpg" class="gallery-img" alt="Arcade">
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta" id="contato">
+
+        <h2>Pronto para bater um novo recorde?</h2>
+
+        <p>
+            Entre agora no universo Cyber Serpent e prove suas habilidades.
+        </p>
+
+        <button  href="game.html" class="btn">
+            Começar Aventura
+        </button>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>Aluna: Larissa</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/laris234" class="link" target="_blank">
+                github.com/laris234
+            </a>
+        </p>
+
+        <p>2026</p>
+
+    </footer>
+
+    <!-- MODAL -->
+
+    <div id="modal" class="modal">
+
+        <span id="close">&times;</span>
+
+        <img id="modalImg">
+
+    </div>
+
+    <!-- BOTÃO TOPO -->
+
+    <button id="topBtn">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
